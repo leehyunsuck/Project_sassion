@@ -1,0 +1,83 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/challengede"
+    android:layout_width="393dp"
+    android:layout_height="785dp"
+    android:clipToOutline="true"
+    android:background="#00000000"
+    >
+
+    <View
+        android:id="@+id/group_51"
+        android:layout_width="323dp"
+        android:layout_height="313dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="444dp"
+        android:background="@drawable/img_2"
+        />
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+    <View
+        android:id="@+id/group_95"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="42dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="452dp"
+        android:background="@drawable/day_sticker_03"
+        />
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <View
+        android:id="@+id/group_99"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="94dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="452dp"
+        android:background="@drawable/day_sticker_03"
+        />
+
+    <View
+        android:id="@+id/group_102"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="452dp"
+        android:background="@drawable/day_sticker_03" />
+
+    <View
+        android:id="@+id/ellipse_60"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="196dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="452dp"
+        android:background="@drawable/day_sticker_03"
+        />
+
+    <View
+        android:id="@+id/ellipse_61"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="246dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="452dp"
+        android:background="@drawable/day_sticker_06"
+        />
+
+
+
+</RelativeLayout>
+
+
+
+

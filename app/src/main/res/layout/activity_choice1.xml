@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/day_sticker_choice" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:background="#00ff0000"
+        android:onClick="moveButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426"
+        app:srcCompat="@drawable/day_sticker_01" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426"
+        app:srcCompat="@drawable/day_sticker_02" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426"
+        app:srcCompat="@drawable/day_sticker_03" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426"
+        app:srcCompat="@drawable/day_sticker_04" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.528"
+        app:srcCompat="@drawable/day_sticker_05" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.528"
+        app:srcCompat="@drawable/day_sticker_06" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.528"
+        app:srcCompat="@drawable/day_sticker_07" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.528"
+        app:srcCompat="@drawable/day_sticker_08" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632"
+        app:srcCompat="@drawable/day_sticker_09" />
+
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632"
+        app:srcCompat="@drawable/day_sticker_10" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632"
+        app:srcCompat="@drawable/day_sticker_11" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632"
+        app:srcCompat="@drawable/day_sticker_12" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731"
+        app:srcCompat="@drawable/day_sticker_13" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731"
+        app:srcCompat="@drawable/day_sticker_14" />
+
+    <ImageButton
+        android:id="@+id/imageButton21"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.587"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731"
+        app:srcCompat="@drawable/day_sticker_15" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:background="#00ff0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731"
+        app:srcCompat="@drawable/day_sticker_16" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
